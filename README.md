@@ -1,2 +1,2 @@
 # JdDigital
-Respositório para projetos desenvolvido no curso JD DIGITAL de HTML e CSS.
+Respositório para projetos desenvolvidos no curso JD DIGITAL de HTML e CSS.
