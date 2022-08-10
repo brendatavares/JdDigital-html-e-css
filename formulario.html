@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu formulário</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: rgb(248, 221, 147);
+        }
+       h1{
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       label{
+        font-family: Arial, Helvetica, sans-serif;
+       }
+    </style>
+</head>
+<body>
+    <h1>Formulário básico</h1> <hr>
+    <form >
+        <div>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome">
+        </div>
+
+        <div>
+            <label for="endereco">Endereço:</label><br>
+            <input type="text" id="endereco">
+        </div>
+
+        <div>
+            <label>Estado:</label> <br>
+             <select>
+                    <option>Ceará</option>
+                    <option>Rio de Janeiro</option>
+                    <option>Bahia</option>
+                    <option>Rio Grande do Sul</option>
+
+             </select>
+        </div>
+
+        <label>
+            <ul>
+                <li> <input value="SIM" type="checkbox">Natação</li>
+                <li> <input value="SIM" type="checkbox">Corrida</li>
+                <li> <input value="SIM" type="checkbox">Ciclismo</li>
+                <li> <input value="SIM" type="checkbox">Caminhada</li>
+
+            </ul>
+        </label>
+
+        <label>
+                <input type="radio">Portugues <br>
+                <input type="radio">Matemática<br>
+                <input type="radio"> Física <br>
+                <input type="radio">História<br>
+
+        </label>
+
+        <label>
+            <h4>Breve resumo da sua vida:</h4>
+            <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+
+        </label> <hr>
+        <p>
+            <button type="reset"> Limpar</button>
+            <button type="submit">Enviar</button>
+        </p>
+        
+    </form>
+</body>
+</html>
