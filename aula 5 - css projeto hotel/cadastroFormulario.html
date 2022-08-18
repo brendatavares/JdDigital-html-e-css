@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icons8-hotel-16.png">
+    <style>
+        
+         nav{
+            text-align: center;
+            padding: 10px;
+            box-shadow: 0px 7px 7px;
+         }
+    </style>
+</head>
+<body>
+        <div class="campo">
+            <nav>
+                <a href="index.html">Início</a>
+                <p id="subtitulo">Complete seu cadastro para usufluir dos nossos serviços!</p>
+            </nav>
+            <br>
+        </div>
+
+        <form>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label><strong>Nome Completo:</strong></label>
+                    <input type="text" name="nome" id="
+                nome" required>
+                </div>
+
+
+                <div class="campo">
+                    <label><strong>Contato</strong></label>
+                    <input type="text" name="nome" id="
+                nome" required>
+                </div>
+
+
+                <div class="campo">
+                    <label><strong>Endereço</strong></label>
+                    <input type="text" name="endereco" id="
+                endereco" required>
+                </div>
+
+                <div class="campo">
+                    <label><strong>Estado</strong></label><br>
+                    <select>
+                        <option selected disabled value="">Selecione</option>
+                        <option>Mato grosso</option>
+                        <option>Minas Gerais</option>
+                        <option>Bahia</option>
+                        <option>Paraná</option>
+                        <option>Goiás</option>
+                        <option>Ceará</option>
+                        <option>Santa Catarina</option>
+                        <option>São Paulo</option>
+                        <option>Rio Grande do Sul</option>
+                        <option>Pernambuco</option>
+                        <option>Pará</option>
+                        <option>Rio de Janeiro</option>
+                        <option>Maranhão</option>
+                        <option>Amazonas</option>
+
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label><strong>País</strong></label><br>
+                    <select>
+                        <option selected disabled value="">Selecione</option>
+                        <option>Brasil</option>
+                        <option>Canadá</option>
+                        <option>Estados Unidos</option>
+                        <option>México</option>
+                        <option>Rússia</option>
+                        <option>França</option>
+                        <option>Alemanha</option>
+                        <option>Japão</option>
+                        <option>Bahamas</option>
+                        <option>Argentina</option>
+                        <option>Peru</option>
+                        <option>Colombia</option>
+                        <option>Chile</option>
+                        <option>Jamaica</option>
+
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label><strong>Gênero</strong></label>
+                    <select id="genero">Gênero:
+                        <option selected disabled value="">Selecione</option>
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                        <option>Não informado</option>
+
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label><strong>Profissão</strong></label>
+                    <input type="text" name="profissao" id="profissao">
+                </div>
+
+                <div class="campo">
+                    <label><strong>Email</strong></label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div class="campo">
+                    <label>
+                        <strong>Qual tipo de acomodação você deseja?</strong>
+                    </label>
+                    <label>
+                        <input type="radio" name="acomodacoes" value="singleroom">Single Room
+                    </label>
+                    <label>
+                        <input type="radio" name="acomodacoes" value="twimroom"> Twim Room
+                    </label>
+                    <label>
+                        <input type="radio" name="acomodacoes" value="doubleroom">Double Room
+                    </label>
+                    <label>
+                        <input type="radio" name="acomodacoes" value="apartamento">Apartamento
+                    </label>
+                </div>
+
+                <div class="campo">
+                    <label>
+                        <strong>Quantas pessoas deseja trazer para esta aventura?</strong>
+                    </label>
+                    <label>
+                        <input type="radio" name="acomodacoes" value="singleroom"> Apenas eu
+                    </label>
+                    <label>
+                        <input type="radio" name="acomodacoes" value="twimroom"> 2 Pessoas
+                    </label>
+                    <label>
+                        <input type="radio" name="acomodacoes" value="doubleroom"> 3 Pessoas
+                    </label>
+                    <label>
+                        <input type="radio" name="acomodacoes" value="apartamento"> Até 6 pessoas
+                    </label>
+                </div>
+
+                <fieldset class="grupo">
+                    <div id="check">
+                        <label><strong>Selecione os serviços que deseja utilizar</strong></label>
+                        <input type="checkbox" id="servicos" name="academia">
+                        <label for="academia">Academia</label>
+                        <input type="checkbox" id="servicos" name="piscina">
+                        <label for="psicina">Piscina</label>
+                        <input type="checkbox" id="servicos" name="saladejogos">
+                        <label for="saladejogos">Sala de Jogos</label>
+                        <input type="checkbox" id="servicos" name="saladejogos">
+                        <label for="Passeioturistico"> Passeio Turistico</label>
+
+                        
+                        
+
+                    </div>
+                </fieldset>
+            </fieldset>
+
+            <div class="campo">
+                <br>
+                <label><strong>Conte-nos como nos encontrou:</strong></label>
+                <textarea style="width:26em";   row="6" name="encontro" id="encontro"  ></textarea>
+            </div>
+
+            <p><strong>Após o cadastro realizado, enviaremos uma mensagem via Whatsapp para confirmar a reserva!</strong></p>
+
+            <br>
+
+            <button type="reset"><strong>Limpar conteúdo</strong></button>
+            <button type="submit">
+                <strong>Concluído
+                </strong>
+            </button>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <br>
+            <footer>Site criado por <a href="https://github.com/brendatavares">Brenda Tavares</a> para o JdDigital | Citinova</footer>
+        </form>
+</body>
+</html>
